@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- res/values/styles.xml -->
+    <style name="SlimButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:layout_margin">8dp</item> <!-- Adjust margin if needed -->
+        <item name="android:textSize">16sp</item> <!-- Adjust text size if needed -->
+        <item name="android:background">@drawable/slim_button_background</item>
+    </style>
+</resources>

@@ -1,0 +1,119 @@
+<!-- res/layout/activity_main.xml -->
+<!-- res/layout/activity_main.xml -->
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:rowCount="6"
+    android:padding="16dp">
+
+    <!-- Row 1: Colors -->
+    <Button
+        android:id="@+id/btnRed"
+        android:layout_width="0dp"
+        style="@style/SlimButtonStyle"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="RED" />
+
+    <Button
+        android:id="@+id/btnGreen"
+        android:layout_width="0dp"
+        style="@style/SlimButtonStyle"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="GREEN" />
+
+    <Button
+        android:id="@+id/btnBlue"
+        android:layout_width="0dp"
+        style="@style/SlimButtonStyle"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="BLUE" />
+
+    <!-- Row 2: Sensor Testing -->
+    <Button
+        android:id="@+id/btnReceiver"
+        android:layout_width="0dp"
+        style="@style/SlimButtonStyle"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="RECEIVER" />
+
+    <Button
+        android:id="@+id/btnVibration"
+        android:layout_width="0dp"
+        style="@style/SlimButtonStyle"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="VIBRATION" />
+
+    <Button
+        android:id="@+id/btnMegaCam"
+        android:layout_width="0dp"
+        style="@style/SlimButtonStyle"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="MEGACAM" />
+
+    <!-- Row 3: Image Test and Graph -->
+    <Button
+        android:id="@+id/btnImageTest"
+        android:layout_width="0dp"
+        style="@style/SlimButtonStyle"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="IMAGE TEST" />
+
+    <Button
+        android:id="@+id/btnGraph"
+        android:layout_width="0dp"
+        style="@style/SlimButtonStyle"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="GRAPH" />
+
+    <!-- Row 4: Barometer Sensor Testing -->
+    <Button
+        android:id="@+id/btnBarometer"
+        android:layout_width="0dp"
+        style="@style/SlimButtonStyle"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="BAROMETER" />
+
+    <!-- Row 5: Gyroscope Sensor Testing -->
+    <Button
+        android:id="@+id/btnGyroscope"
+        android:layout_width="0dp"
+        style="@style/SlimButtonStyle"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="GYROSCOPE" />
+
+    <!-- Row 6: Magnetometer Sensor Testing -->
+    <Button
+        android:id="@+id/btnMagnetometer"
+        android:layout_width="0dp"
+        style="@style/SlimButtonStyle"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="MAGNETOMETER" />
+
+    <!-- Other buttons can be added here -->
+
+</GridLayout>
